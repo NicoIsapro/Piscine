@@ -13,9 +13,9 @@ int	my_print_revalpha()
   char	alphabet;
 
   alphabet = 122;
-  while (alphabet > 96)
+  while (alphabet > 97)
     {
-      my_putchar(alphabet);
-      alphabet = alphabet - 1;
+      putchar(alphabet);
+      alphabet--;
     }
 }
